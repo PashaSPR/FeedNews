@@ -31,7 +31,7 @@ public class NewsController {
 //        model.addAttribute("News",arrayListNews);
         return "addnews";
     }
-    @GetMapping("/addnews")
+    @GetMapping("/about")
     public String about( Model model) {
         return "about";
     }
